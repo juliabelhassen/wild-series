@@ -57,56 +57,6 @@ header {
   scale: 110%;
 }
 
-.text-box {
-  grid-column: 1 / -1;
-  grid-row: 1;
-  align-self: center;
-  text-align: center;
-}
-
-.block-primary {
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-}
-
-.block-primary-main {
-  font-size: 3em;
-  letter-spacing: 5px;
-  animation: blink 12s infinite;
-}
-
-.block-primary-sub {
-  display: block;
-  font-weight: bold;
-  letter-spacing: 7px;
-}
-
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  border-radius: 100px;
-  transition: all 0.2s;
-  position: relative;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-  transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #777;
-}
-
 footer {
   grid-column: -2 / -1;
   grid-row: 1;
